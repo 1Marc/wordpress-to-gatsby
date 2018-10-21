@@ -1,0 +1,64 @@
+{
+  "_from": "wordpress-gatsby-migrater@^1.0.1",
+  "_id": "wordpress-gatsby-migrater@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-h7yeaazC1NJlYzwaTaZlu9Wb4bHo4PTIYX9CNKC9pYvds7A9H+NV5eYUs5FpWyJRgHgiL2Mb06G4SziSVWqdAA==",
+  "_location": "/wordpress-gatsby-migrater",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "wordpress-gatsby-migrater@^1.0.1",
+    "name": "wordpress-gatsby-migrater",
+    "escapedName": "wordpress-gatsby-migrater",
+    "rawSpec": "^1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/wordpress-gatsby-migrater/-/wordpress-gatsby-migrater-1.0.1.tgz",
+  "_shasum": "4a6fe248e126018da813ab8ce173eee7a289794c",
+  "_spec": "wordpress-gatsby-migrater@^1.0.1",
+  "_where": "/Users/marcgrabanski/Sites/sandbox/test",
+  "author": {
+    "name": "Weiran Zhang",
+    "email": "weiran@zhang.me.uk",
+    "url": "https://weiran.co"
+  },
+  "bin": {
+    "wordpress-gatsby-migrater": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/weiran/wordpress-gatsby-migrater/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "davefeedread": "^0.4.14",
+    "fs-extra": "^6.0.1",
+    "minimist": "^1.2.0",
+    "node-fetch": "^2.1.2",
+    "turndown": "^4.0.2",
+    "uuid": "^3.2.1"
+  },
+  "deprecated": false,
+  "description": "Migrate your WordPress blog to Gatsby. This tool takes a Wordpress export, and produces a local folder structure with the content and images.",
+  "homepage": "https://github.com/weiran/wordpress-gatsby-migrater",
+  "keywords": [
+    "wordpress",
+    "gatsby",
+    "markdown",
+    "squarespace"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "wordpress-gatsby-migrater",
+  "scripts": {
+    "debug": "node --nolazy --inspect-brk=9229 index.js input.xml blog",
+    "start": "node index.js"
+  },
+  "version": "1.0.1"
+}

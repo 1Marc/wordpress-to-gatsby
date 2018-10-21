@@ -1,0 +1,16 @@
+{
+  "name": "wordpress-to-gatsby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "wordpress-gatsby-migrater": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./wordpress-to-gatsby ./export.xml ../output",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
