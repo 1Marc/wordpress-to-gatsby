@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "wordpress-gatsby-migrater": "^1.0.1"
+    "cheerio": "^1.0.0-rc.2",
+    "davefeedread": "^0.4.14",
+    "fs-extra": "^6.0.1",
+    "minimist": "^1.2.0",
+    "node-fetch": "^2.1.2",
+    "turndown": "^4.0.2",
+    "uuid": "^3.2.1"
   },
   "devDependencies": {},
   "scripts": {
